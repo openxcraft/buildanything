@@ -1,0 +1,204 @@
+# Universal Build Workflow: From Idea to Full Execution Readiness
+
+PART 1 — THE WORKFLOW (English, publish-ready)
+
+Universal Build Workflow: From Idea to Full Execution Readiness
+
+Works in two modes: No-AI (manual/templates) and AI-assisted (generated questions + assembly). Core principle: questions are the engine of clarity. Each answered question = one brick in the Big Picture. Each piece of the picture = a small element that is either ready-made or built from scratch.
+
+The Map — 7 Stages, 4 Gates
+
+```text
+[1] Capture the idea
+      ↓  G0: Is the idea written down?
+[2] Generate all probable questions (Dimensions × Question Forms matrix)
+      ↓  G1: Does every cell have an answer or a declared assumption?
+[3] Answer + Assumption Log + Open-Questions Log
+      ↓
+[4] Assemble the Big Clear Picture (one-page Blueprint)
+      ↓  G2: Can a stranger explain it in 60 seconds?
+[5] Decompose into small elements + decide: Ready / Buy / Reuse / Build
+      ↓  G3: Does every element have a spec and an interface contract?
+[6] Assemble: integration plan + testing + rollback
+      ↓  G4: Execution Readiness Pack complete?
+[7] Actual execution (outside this workflow)
+```
+
+Stage 1 — Capture the Idea (15 min)
+
+```text
+One-sentence idea:
+What happens today (current state)?
+What we want (target state)?
+First beneficiary:
+First tangible output:
+```
+
+G0: If you cannot write the one sentence, the idea is not ripe. Do not proceed.
+
+Stage 2 — The Question Engine
+
+2.1 The Matrix: 12 Dimensions × 10 Question Forms. Fill every cell with at least one question.
+
+Dimension What Who Why How When Where How many Which Is/Does What if
+1. Identity What exactly is it? Who owns it? Why does it exist? How is it defined? When does it start/end? Where does it live? How many versions? Which version first? Is it a project or product? What if its definition changes?
+2. Goal What outcome? Who judges success? Why now? How is it measured? When do we evaluate? Where is it recorded? How many goals? Which goal is priority? Is the goal realistic? What if it isn't achieved?
+3. User What is their need? Who are they? Why do they care? How do they use it? When do they use it? Where do they use it? How many users? Which segment first? Are they ready? What if they don't use it?
+4. Scope What's in? Who approves it? Why this boundary? How do we prevent scope creep? When is it frozen? Where are system boundaries? How many items? Which item is deferred? Is scope sufficient? What if it expands?
+5. Outputs What deliverables? Who receives them? Why these specifically? How are they delivered? When is each due? Where are they stored? How many? Which is first? Are they measurable? What if one is missing?
+6. Time What schedule? Who is committed? Why this date? How do we track? When are milestones? Where is the calendar? How many hours/days? Which date is critical? Is the schedule realistic? What if we're late?
+7. Place / Environment What environment? Who administers it? Why this one? How do we access it? When is it available? Where physically? How many envs (test/prod)? Which env first? Is it secure? What if it fails?
+8. Resources What is required? Who supplies it? Why this quantity? How is it managed? When is it acquired? Where is it kept? How much does it cost? Which resource is critical? Is it enough? What if a resource is short?
+9. Method What steps? Who executes? Why this method? How in detail? When is each step? Where is it executed? How many iterations? Which alternative? Is the method proven? What if it fails?
+10. Quality What standard? Who inspects? Why this level? How do we measure? When do we inspect? Where are results logged? What acceptance rate? Which criterion is priority? Is it met? What if quality drops?
+11. Risk What is the biggest risk? Who owns it? Why is it likely? How do we prevent it? When do we monitor? Where does it surface? What likelihood/impact? Which risk first? Do we have a fallback? What if it materializes?
+12. Governance What decisions? Who is accountable? Why this authority? How is it documented? When do we review? Where is the log? How many reviews? Which decision needs approval? Is delegation clear? What if we disagree?
+
+Result: ~120 customizable questions. Not all are always needed — but any empty cell is a hole in the picture.
+
+2.2 The Two Modes
+
+ No-AI AI-assisted
+Question generation Use the matrix above as a paper checklist Give the model the idea + matrix to generate customized questions per cell
+Answering Interviews + workshop + prior experience + analogous projects Model proposes answers; tag uncertain ones [assumption]
+Audit Human reviewer + "what did we miss?" checklist Model scans for contradictions and gaps
+Decision Manual scoring matrix Model proposes; humans approve
+
+Hard rule: "Unknown" is never accepted bare. Every unknown becomes either a declared assumption or an open question with an owner and a due date.
+
+2.3 Two Mandatory Logs
+
+```text
+Assumption Log
+ID | Assumption | Why we assumed it | Impact if wrong | Who verifies | When
+
+Open Questions Log
+ID | Question | Dimension | Answer owner | Due | Status
+```
+
+G1: No empty cells; no "unknown" without an owner.
+
+Stage 3 — Build the Big Clear Picture
+
+3.1 One-Page Blueprint Canvas
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│ 1. Name + one sentence                                   │
+├───────────────────┬─────────────────┬───────────────────┤
+│ 2. Problem        │ 3. User         │ 4. Desired outcome │
+├───────────────────┴─────────────────┴───────────────────┤
+│ 5. Primary outputs (3–7 only)                            │
+├─────────────────────────────────────────────────────────┤
+│ 6. Scope: IN ✅  |  OUT ❌                               │
+├───────────────────┬─────────────────┬───────────────────┤
+│ 7. Constraints (time/budget/tools) │ 8. Success criteria (measurable) │
+├───────────────────┴─────────────────┴───────────────────┤
+│ 9. Top 3 risks + fallback plan                           │
+├─────────────────────────────────────────────────────────┤
+│ 10. Top 3 unverified assumptions                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+3.2 The "Is the picture clear?" test: Ask someone uninvolved — can they explain the project in one minute without you prompting them? Yes → G2 passed. No → the gap is in a specific cell; return to it.
+
+Stage 4 — Decompose into Small Elements
+
+4.1 Each output (item 5) is split until you reach an element requiring no more than 1–3 days to implement.
+
+4.2 Decision per element — Ready vs. Build
+
+Decision When to choose What we need
+Ready Exists and does the job as-is Link/license + acceptance test
+Buy Exists but isn't ours, or cheaper to buy Option comparison + cost + terms
+Reuse We have a prior version that can be adapted What needs changing + impact
+Build No alternative meets the spec Spec + resources + time
+
+Rule: never build before proving Ready is insufficient. Build is the last resort, not the first.
+
+4.3 Element Card (mandatory, one per element)
+
+```text
+Element ID:            Name:
+Function in one sentence:      Output:
+Inputs:                Outputs:
+Interface contract (how it connects to others?):
+Decision: Ready / Buy / Reuse / Build
+Source or effort estimate:
+Dependencies (depends on / depended on by):
+Owner:                 Due:
+Definition of Done:
+Element-specific risks:
+```
+
+Without a clear interface contract, assembly will fail — this is the single most important card in the workflow.
+
+Stage 5 — Assembly & Readiness
+
+5.1 Order the elements: critical and highest-risk first, then dependents, then enhancements.
+
+5.2 Execution Readiness Pack
+
+```text
+□ 1. Idea document (one page)
+□ 2. One-page Blueprint (signed off)
+□ 3. Assumption Log + Open Questions Log (closed or owner-assigned)
+□ 4. Complete element list (one card per element)
+□ 5. Dependency & interface map
+□ 6. Timeline with milestones
+□ 7. Budget / resources
+□ 8. Risk register + fallback for every critical risk
+□ 9. Acceptance test plan per output
+□ 10. Rollback / stop plan
+□ 11. Roles and authority
+□ 12. Communication channel + decision log
+□ 13. Project-wide Definition of Done
+```
+
+G4: Any missing item means execution will begin with already-known errors.
+
+Stage 6 — The Two Execution Modes
+
+Path A — No-AI (manual): print the 12×10 matrix and fill it by hand → collect answers from experience, prior projects, two interviews, quick research → every unknown becomes an assumption → draw the Blueprint on A3 → decompose onto sticky notes, one element per card → review with another person (the one-minute test) → fill the Readiness Pack.
+Strength: full control, no hallucination, deep context. Limit: slow generation and coverage.
+
+Path B — AI-assisted. Use the model in 6 roles only, and never give it approval authority:
+
+```text
+[P1] Question generation
+"My idea: [...]. Using the twelve dimensions (identity, goal, user, scope,
+outputs, time, place, resources, method, quality, risk, governance), generate
+5 questions per dimension in the forms: what/who/why/how/when/where/how many/
+which/is/what-if. Classify each: Critical / Important / Enhancement. Do not answer."
+
+[P2] Conditional answering
+"Answer these questions from what I have stated. Prefix every unconfirmed answer
+with [ASSUMPTION] plus the reason and the impact if wrong. Do not invent numbers."
+
+[P3] Audit
+"Find: contradictions, gaps, scope bloat, non-measurable success criteria,
+risks without fallback. Output as a list."
+
+[P4] Assembly
+"Summarize everything above into a one-page Blueprint with the ten fields.
+Add no new information."
+
+[P5] Decomposition
+"Decompose outputs into elements of no more than 3 days. For each: full Element
+Card + decision (Ready/Buy/Reuse/Build) + rationale + dependencies."
+
+[P6] Readiness
+"Review the 13-item Readiness Pack and list only what is missing."
+```
+
+Safety rule: every AI output is a draft until a human approves it. Numbers and dates are verified manually.
+
+Stage 7 — Summary of Rules
+
+1. No picture without questions. Questions are the production tool, not a formality.
+2. Every unknown has an owner or becomes a declared assumption.
+3. The Big Picture fits on one page. What doesn't fit isn't essential.
+4. Every element is small and has an interface contract. This is what makes assembly possible.
+5. Build is the last resort. Ready → Buy → Reuse → Build.
+6. AI generates and audits; humans approve. Same result in both modes; only speed differs.
+7. No execution before G4. An incomplete Readiness Pack guarantees rework.

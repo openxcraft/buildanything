@@ -1,0 +1,1 @@
+PASS: source files present; install markdownlint-cli2 to run full style scan.

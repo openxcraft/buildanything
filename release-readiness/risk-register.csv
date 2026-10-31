@@ -1,0 +1,4 @@
+risk,likelihood,impact,mitigation,fallback,owner
+Placeholder URL,high,high,replace before launch,do not publish until replaced,maintainer
+Translation errors,medium,high,fluent review,mark locale draft,locale lead
+Provider outage,medium,high,three-copy mirror,offline ZIP,release lead

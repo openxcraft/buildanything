@@ -1,0 +1,10 @@
+{
+  "name": "Universal Build Workflow",
+  "steps": [
+    "Capture idea",
+    "Run question matrix",
+    "Create blueprint",
+    "Create element cards",
+    "Run readiness gate"
+  ]
+}

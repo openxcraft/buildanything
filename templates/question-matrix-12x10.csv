@@ -1,0 +1,13 @@
+Dimension,What,Who,Why,How,When,Where,How many,Which,Is/Does,What if
+Identity,What exactly is it?,Who owns it?,Why does it exist?,How is it defined?,When does it start/end?,Where does it live?,How many versions?,Which version first?,Is it a project or product?,What if its definition changes?
+Goal,What outcome?,Who judges success?,Why now?,How is it measured?,When do we evaluate?,Where is it recorded?,How many goals?,Which goal is priority?,Is the goal realistic?,What if it isn’t achieved?
+User,What is their need?,Who are they?,Why do they care?,How do they use it?,When do they use it?,Where do they use it?,How many users?,Which segment first?,Are they ready?,What if they don’t use it?
+Scope,What's in?,Who approves it?,Why this boundary?,How do we prevent scope creep?,When is it frozen?,Where are system boundaries?,How many items?,Which item is deferred?,Is scope sufficient?,What if it expands?
+Outputs,What deliverables?,Who receives them?,Why these specifically?,How are they delivered?,When is each due?,Where are they stored?,How many?,Which is first?,Are they measurable?,What if one is missing?
+Time,What schedule?,Who is committed?,Why this date?,How do we track?,When are milestones?,Where is the calendar?,How many hours/days?,Which date is critical?,Is the schedule realistic?,What if we’re late?
+Place / Environment,What environment?,Who administers it?,Why this one?,How do we access it?,When is it available?,Where physically?,How many envs (test/prod)?,Which env first?,Is it secure?,What if it fails?
+Resources,What is required?,Who supplies it?,Why this quantity?,How is it managed?,When is it acquired?,Where is it kept?,How much does it cost?,Which resource is critical?,Is it enough?,What if a resource is short?
+Method,What steps?,Who executes?,Why this method?,How in detail?,When is each step?,Where is it executed?,How many iterations?,Which alternative?,Is the method proven?,What if it fails?
+Quality,What standard?,Who inspects?,Why this level?,How do we measure?,When do we inspect?,Where are results logged?,What acceptance rate?,Which criterion is priority?,Is it met?,What if quality drops?
+Risk,What is the biggest risk?,Who owns it?,Why is it likely?,How do we prevent it?,When do we monitor?,Where does it surface?,What likelihood/impact?,Which risk first?,Do we have a fallback?,What if it materializes?
+Governance,What decisions?,Who is accountable?,Why this authority?,How is it documented?,When do we review?,Where is the log?,How many reviews?,Which decision needs approval?,Is delegation clear?,What if we disagree?

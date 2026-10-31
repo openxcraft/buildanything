@@ -1,0 +1,6 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+
+msgid "Universal Build Workflow: From Idea to Full Execution Readiness"
+msgstr "Flujo de trabajo universal: de la idea a la preparación completa para la ejecución"

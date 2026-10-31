@@ -1,0 +1,1 @@
+Universal Build Workflow: questions create clarity. Capture the idea, ask the questions, record assumptions, build the one-page picture, decompose outputs into small elements, and pass every readiness gate before execution.

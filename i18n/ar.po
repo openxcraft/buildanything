@@ -1,0 +1,8 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Language-Team: Arabic\n"
+"Direction: rtl\n"
+
+msgid "Universal Build Workflow: From Idea to Full Execution Readiness"
+msgstr "سير العمل الشامل: من الفكرة إلى الجاهزية الكاملة للتنفيذ"

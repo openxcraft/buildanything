@@ -1,0 +1,20 @@
+{
+  "name": "Build and publish release",
+  "nodes": [
+    {
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "universal-build-workflow-release"
+      }
+    },
+    {
+      "name": "Run build",
+      "type": "n8n-nodes-base.executeCommand",
+      "parameters": {
+        "command": "bash automation/build.sh"
+      }
+    }
+  ],
+  "connections": {}
+}

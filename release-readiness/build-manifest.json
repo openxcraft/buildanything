@@ -1,0 +1,20 @@
+{
+  "source": "docs/00-overview.md",
+  "source_date_epoch": "from git tag or explicit environment",
+  "outputs": [
+    "html",
+    "txt",
+    "epub",
+    "pdf",
+    "large-print-pdf",
+    "dyslexia-friendly-pdf",
+    "poster-pdf",
+    "office derivatives",
+    "images"
+  ],
+  "toolchain": [
+    "Python 3",
+    "WeasyPrint",
+    "LibreOffice when available"
+  ]
+}

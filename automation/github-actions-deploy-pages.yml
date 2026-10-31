@@ -1,0 +1,13 @@
+name: deploy-pages
+on: workflow_dispatch
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions: {contents: read, pages: write, id-token: write}
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash automation/build.sh
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: formats/}
+      - id: deployment
+        uses: actions/deploy-pages@v4

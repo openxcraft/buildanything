@@ -1,0 +1,4 @@
+Python: runtime
+WeasyPrint: runtime
+LibreOffice: runtime when available
+SOURCE_DATE_EPOCH: set by automation/build.sh

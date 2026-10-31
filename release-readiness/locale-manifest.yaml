@@ -1,0 +1,17 @@
+locales:
+  - tag: en
+    dir: ltr
+    status: complete
+    reviewer: Universal Build Workflow Project
+  - tag: ar
+    dir: rtl
+    status: draft
+    reviewer: "[ASSUMPTION] Assign an Arabic-fluent reviewer before release."
+  - tag: es
+    dir: ltr
+    status: draft
+    reviewer: "[ASSUMPTION] Assign a Spanish-fluent reviewer before release."
+  - tag: fr
+    dir: ltr
+    status: draft
+    reviewer: "[ASSUMPTION] Assign a French-fluent reviewer before release."

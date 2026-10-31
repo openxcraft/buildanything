@@ -1,0 +1,182 @@
+[
+  {
+    "dimension": "Identity",
+    "forms": {
+      "What": "What exactly is it?",
+      "Who": "Who owns it?",
+      "Why": "Why does it exist?",
+      "How": "How is it defined?",
+      "When": "When does it start/end?",
+      "Where": "Where does it live?",
+      "How many": "How many versions?",
+      "Which": "Which version first?",
+      "Is/Does": "Is it a project or product?",
+      "What if": "What if its definition changes?"
+    }
+  },
+  {
+    "dimension": "Goal",
+    "forms": {
+      "What": "What outcome?",
+      "Who": "Who judges success?",
+      "Why": "Why now?",
+      "How": "How is it measured?",
+      "When": "When do we evaluate?",
+      "Where": "Where is it recorded?",
+      "How many": "How many goals?",
+      "Which": "Which goal is priority?",
+      "Is/Does": "Is the goal realistic?",
+      "What if": "What if it isn’t achieved?"
+    }
+  },
+  {
+    "dimension": "User",
+    "forms": {
+      "What": "What is their need?",
+      "Who": "Who are they?",
+      "Why": "Why do they care?",
+      "How": "How do they use it?",
+      "When": "When do they use it?",
+      "Where": "Where do they use it?",
+      "How many": "How many users?",
+      "Which": "Which segment first?",
+      "Is/Does": "Are they ready?",
+      "What if": "What if they don’t use it?"
+    }
+  },
+  {
+    "dimension": "Scope",
+    "forms": {
+      "What": "What's in?",
+      "Who": "Who approves it?",
+      "Why": "Why this boundary?",
+      "How": "How do we prevent scope creep?",
+      "When": "When is it frozen?",
+      "Where": "Where are system boundaries?",
+      "How many": "How many items?",
+      "Which": "Which item is deferred?",
+      "Is/Does": "Is scope sufficient?",
+      "What if": "What if it expands?"
+    }
+  },
+  {
+    "dimension": "Outputs",
+    "forms": {
+      "What": "What deliverables?",
+      "Who": "Who receives them?",
+      "Why": "Why these specifically?",
+      "How": "How are they delivered?",
+      "When": "When is each due?",
+      "Where": "Where are they stored?",
+      "How many": "How many?",
+      "Which": "Which is first?",
+      "Is/Does": "Are they measurable?",
+      "What if": "What if one is missing?"
+    }
+  },
+  {
+    "dimension": "Time",
+    "forms": {
+      "What": "What schedule?",
+      "Who": "Who is committed?",
+      "Why": "Why this date?",
+      "How": "How do we track?",
+      "When": "When are milestones?",
+      "Where": "Where is the calendar?",
+      "How many": "How many hours/days?",
+      "Which": "Which date is critical?",
+      "Is/Does": "Is the schedule realistic?",
+      "What if": "What if we’re late?"
+    }
+  },
+  {
+    "dimension": "Place / Environment",
+    "forms": {
+      "What": "What environment?",
+      "Who": "Who administers it?",
+      "Why": "Why this one?",
+      "How": "How do we access it?",
+      "When": "When is it available?",
+      "Where": "Where physically?",
+      "How many": "How many envs (test/prod)?",
+      "Which": "Which env first?",
+      "Is/Does": "Is it secure?",
+      "What if": "What if it fails?"
+    }
+  },
+  {
+    "dimension": "Resources",
+    "forms": {
+      "What": "What is required?",
+      "Who": "Who supplies it?",
+      "Why": "Why this quantity?",
+      "How": "How is it managed?",
+      "When": "When is it acquired?",
+      "Where": "Where is it kept?",
+      "How many": "How much does it cost?",
+      "Which": "Which resource is critical?",
+      "Is/Does": "Is it enough?",
+      "What if": "What if a resource is short?"
+    }
+  },
+  {
+    "dimension": "Method",
+    "forms": {
+      "What": "What steps?",
+      "Who": "Who executes?",
+      "Why": "Why this method?",
+      "How": "How in detail?",
+      "When": "When is each step?",
+      "Where": "Where is it executed?",
+      "How many": "How many iterations?",
+      "Which": "Which alternative?",
+      "Is/Does": "Is the method proven?",
+      "What if": "What if it fails?"
+    }
+  },
+  {
+    "dimension": "Quality",
+    "forms": {
+      "What": "What standard?",
+      "Who": "Who inspects?",
+      "Why": "Why this level?",
+      "How": "How do we measure?",
+      "When": "When do we inspect?",
+      "Where": "Where are results logged?",
+      "How many": "What acceptance rate?",
+      "Which": "Which criterion is priority?",
+      "Is/Does": "Is it met?",
+      "What if": "What if quality drops?"
+    }
+  },
+  {
+    "dimension": "Risk",
+    "forms": {
+      "What": "What is the biggest risk?",
+      "Who": "Who owns it?",
+      "Why": "Why is it likely?",
+      "How": "How do we prevent it?",
+      "When": "When do we monitor?",
+      "Where": "Where does it surface?",
+      "How many": "What likelihood/impact?",
+      "Which": "Which risk first?",
+      "Is/Does": "Do we have a fallback?",
+      "What if": "What if it materializes?"
+    }
+  },
+  {
+    "dimension": "Governance",
+    "forms": {
+      "What": "What decisions?",
+      "Who": "Who is accountable?",
+      "Why": "Why this authority?",
+      "How": "How is it documented?",
+      "When": "When do we review?",
+      "Where": "Where is the log?",
+      "How many": "How many reviews?",
+      "Which": "Which decision needs approval?",
+      "Is/Does": "Is delegation clear?",
+      "What if": "What if we disagree?"
+    }
+  }
+]

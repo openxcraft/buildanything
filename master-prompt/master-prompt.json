@@ -1,0 +1,41 @@
+{
+  "title": "Open-Knowledge Publishing & Distribution Master Prompt",
+  "version": "1.0.0",
+  "fields": {
+    "TITLE": "Universal Build Workflow: From Idea to Full Execution Readiness",
+    "ONE_SENTENCE": "A question-driven workflow that turns an idea into a clear, decomposed, execution-ready plan.",
+    "FORMATS": [
+      "Markdown"
+    ],
+    "LANGUAGES": [
+      "en"
+    ],
+    "AUDIENCES": [
+      "students",
+      "founders",
+      "NGOs",
+      "engineers",
+      "teachers",
+      "makers",
+      "non-technical readers",
+      "offline and low-bandwidth communities"
+    ],
+    "LICENSE": "CC BY 4.0 for text; MIT for code; CC0 for templates and data",
+    "CONSTRAINTS": "zero reader cost; volunteer maintainers; free-tier hosting"
+  },
+  "required_sections": [
+    "A Artifact Definition Sheet",
+    "B Format Matrix",
+    "C Channel Matrix",
+    "D Stage-by-Stage Workflow",
+    "E Element Cards",
+    "F Automation Blueprint",
+    "G Quality & Verification Checklist",
+    "H Governance",
+    "I Metrics Without Surveillance",
+    "J Zero-Cost Hosting & Sustainability Plan",
+    "K 30-Day Execution Calendar",
+    "L Risk Register"
+  ],
+  "source": "master-prompt.md"
+}

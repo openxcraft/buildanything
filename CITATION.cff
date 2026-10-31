@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Universal Build Workflow: From Idea to Full Execution Readiness"
+message: "If you use this workflow, cite the versioned release."
+type: software
+version: "1.0.0"
+date-released: "2026-11-01"
+url: "https://example.org/universal-build-workflow"
+doi: "[ASSUMPTION] Reserve a DOI for the public release before publication."
+authors:
+  - family-names: "Universal Build Workflow Project"
+    given-names: "Project"
+license: "CC-BY-4.0"
+repository-code: "https://example.org/universal-build-workflow"

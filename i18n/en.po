@@ -1,0 +1,7 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Direction: ltr\n"
+
+msgid "Universal Build Workflow: From Idea to Full Execution Readiness"
+msgstr "Universal Build Workflow: From Idea to Full Execution Readiness"

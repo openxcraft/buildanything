@@ -1,0 +1,4 @@
+path,kind,license,status
+docs/00-overview.md,documentation,CC-BY-4.0,complete
+master-prompt/master-prompt.md,documentation,CC-BY-4.0,complete
+data/workflow.json,data,CC0-1.0,complete

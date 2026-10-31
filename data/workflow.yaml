@@ -1,0 +1,24 @@
+title: "Universal Build Workflow: From Idea to Full Execution Readiness"
+version: "1.0.0"
+stages:
+  - id: 1
+    name: Capture the idea
+    gate: "G0: idea written down"
+  - id: 2
+    name: Question Engine
+    gate: "G1: every cell answered or assumed"
+  - id: 3
+    name: Big Clear Picture
+    gate: "G2: stranger explains in 60 seconds"
+  - id: 4
+    name: Decompose elements
+    gate: "G3: spec and interface contract"
+  - id: 5
+    name: Assembly and readiness
+    gate: "G4: readiness pack complete"
+  - id: 6
+    name: Choose execution mode
+    gate: "human approval of AI drafts"
+  - id: 7
+    name: Actual execution
+    gate: "outside this workflow"

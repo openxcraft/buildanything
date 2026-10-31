@@ -1,0 +1,5 @@
+locale,reviewer,status,date,notes
+en,Universal Build Workflow Project,complete,2026-11-01,Source language
+ar,[ASSUMPTION] assign reviewer,draft,2026-11-01,RTL review required
+es,[ASSUMPTION] assign reviewer,draft,2026-11-01,Fluent review required
+fr,[ASSUMPTION] assign reviewer,draft,2026-11-01,Fluent review required

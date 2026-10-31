@@ -1,0 +1,8 @@
+stage_id,stage_name,gate
+1,Capture the idea,G0: idea written down
+2,Question Engine,G1: every cell answered or assumed
+3,Big Clear Picture,G2: stranger explains in 60 seconds
+4,Decompose elements,G3: spec and interface contract
+5,Assembly & Readiness,G4: readiness pack complete
+6,Choose execution mode,human approval of AI drafts
+7,Actual execution,outside this workflow

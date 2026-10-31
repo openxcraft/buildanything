@@ -1,0 +1,13 @@
+name: build
+on:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: {contents: read}
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash automation/build.sh
+      - uses: actions/upload-artifact@v4
+        with: {name: universal-build-workflow, path: formats/}

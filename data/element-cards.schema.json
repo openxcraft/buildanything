@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "required": [
+    "element_id",
+    "name",
+    "interface_contract",
+    "decision"
+  ],
+  "properties": {
+    "element_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "interface_contract": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "Ready",
+        "Buy",
+        "Reuse",
+        "Build"
+      ]
+    }
+  }
+}

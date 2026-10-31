@@ -1,0 +1,6 @@
+front,back,tags
+What is G0?,The idea is written down.,workflow gate
+What is G1?,Every question cell has an answer or declared assumption.,workflow gate
+What is G2?,A stranger can explain the project in 60 seconds.,workflow gate
+What is G3?,Every element has a specification and interface contract.,workflow gate
+What is G4?,The Execution Readiness Pack is complete.,workflow gate
