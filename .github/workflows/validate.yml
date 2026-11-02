@@ -1,0 +1,24 @@
+name: validate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate and verify release metadata
+        run: |
+          python3 automation/update_manifest.py
+          git diff --exit-code -- MANIFEST.json SHA256SUMS.txt
+      - name: Validate core JSON artifacts
+        run: |
+          python3 -m json.tool data/workflow.schema.json >/dev/null
+          python3 -m json.tool data/workflow.json >/dev/null
+      - name: Verify required source files
+        run: test -s docs/00-overview.md && test -s data/workflow.schema.json
